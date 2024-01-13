@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: whitesmoke;
+    
+}
+
+.header{
+    background-color: #0F1111;
+    color: white;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.menu-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo{
+    color: white;
+    font-size: 2rem;
+}
+
+.menu-address > div{
+display: flex;
+justify-content: flex-start;
+gap: 0.2rem;
+}
+.menu-address > div > p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.menu-address > p{
+    color: gray;
+   padding-left: 1rem;
+   font-size: 1rem;
+}
+
+
+.bucketlist{
+    display: flex;
+    align-items: center;
+}
+
+.bucketlist > div {
+ background-color: rgba(255, 166, 0, 0.815);
+ width: 3rem;
+ height: 3.1rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-bottom-right-radius: 0.3rem;
+ border-top-right-radius: 0.3rem;
+ border: none;
+}
+
+.bucketlist > div > i{
+    font-size: 1.5rem;
+    color: #0F1111;
+    font-weight: 900;
+}
+
+.bucketlist > input {
+    height: 3rem;
+    width: 45rem;
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+.bucketlist > select{
+    width: 3.5rem;
+    height: 3.1rem;
+    border: 1px solid gray;
+    text-transform: capitalize;
+    color:#0F1111;
+    background-color: darkgray;
+    padding-left: 0.5rem;
+    border-bottom-left-radius: 0.3rem;
+    border-top-left-radius: 0.3rem;
+}
+
+.menu-langaue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-langaue > img{
+width: 1.5rem;
+height: 1rem;
+}
+
+.menu-langaue > select{
+    background-color: #0F1111;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.menu-signin > p{
+  color: rgba(128, 128, 128, 0.753);
+  font-weight: 600;
+  padding-left: 0.2rem;
+}
+
+.menu-signin > select{
+    background-color: #0F1111;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.menu-returnorder > p{
+    color: rgba(128, 128, 128, 0.753);
+    font-weight: 600;
+    padding-left: 0.2rem;
+  }
+  
+  .menu-returnorder > h4{
+      
+      font-size: 1.3rem;
+      font-weight: 700;
+  }
+
+  .menu-cart{
+    display: flex;
+
+  }
+
+  .menu-cart > i{
+    font-size: 2rem;
+  }
+
+
+
+
+  /* this is our advertisement slider */
+
+.advertisment{
+    margin-top: 5rem;
+    
+}
+
+.advertisment > img{
+    width: 100%;
+
+}
+
+
+/* this is product cart section */
+
+.cards{
+
+    display: flex;
+flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 4rem;
+    /* background: linear-gradient(to bottom, #ff66b2, #ffe0f5ab); */
+    margin: 0;
+}
+
+.product-card{
+  background-color: #fff;
+  box-shadow:4px 4px 21px #b3a2a2;
+  margin:1.5rem 0;
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.product-card > div{
+    margin-left: 1rem;
+}
+
+.product-card > div > h3{
+    color: cadetblue;
+    width: 90%;
+}
+
+
+.product-price {
+    display: flex;
+
+}
+
+.product-price > i{
+
+    font-size: 1.3rem;
+}
+
+
+.product-price > h4{
+    font-size: 1.3rem;
+}
+.product-card > button{
+    width: 5rem;
+    padding: 0.5rem 0;
+    background-color: green;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+}
